@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    background-color: black;
+    color:rgb(122, 109, 109);
+
+  text-align: center;
+}
+
+header,
+footer{
+  /* flex: 1 100%;   */
+  flex-shrink: 0;
+  background-color: aquamarine;
+  height: 10vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}       
+main{
+    flex:1 0 auto;
+    display: flex;
+}
+section{
+    background-color: aqua;
+    flex: 2;
+    text-align: center
+}
+aside{
+    background-color: aliceblue;
+    flex: 1;
+    height: 80vh;
+}
+nav{
+    background-color: tomato;
+}
+span{
+    color: white;
+    background: transparent;
+}
+h1{
+    background-color: transparent;
+}
+#animate{
+    height: 5rem;
+    width: 5rem;
+    background-color: red;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+@keyframes change {
+    0%{background-color: red;}
+    50%{background-color: yellow;margin-left: 92%;}
+    100%{background-color: rgb(47, 228, 47);}
+}
+#ball{
+    height: 2rem;
+    width: 2rem;
+    animation-name: pin-ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+@keyframes pin-ball {
+    0%{background-color: red;}
+    50%{background-color: yellow;margin-left: 87%; margin-top: -30%;}
+    100%{background-color: rgb(47, 228, 47);margin-top: -10%;}
+}
+#bar-1{
+    height: 5rem;
+    width: 2rem;
+    background-color: black;
+    animation-name: bar-move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes bar-move {
+    0%{margin-top: 0%;}
+    20%{margin-top: 20%;}
+    50%{margin-top: 50%;}
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav><span style="float: left;">LOGO</span><span>Menu</span>|<span>More</span></nav>
+    </header>
+    <main>
+        <section>
+            <h1>Section</h1>
+            <div id="animate">
+
+            </div>
+        </section>
+        <aside>
+            <h1>Aside</h1>
+            <div id="bar-1"></div>
+            <div id="ball"></div>
+            <div id="bar2"></div>
+        </aside>
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>

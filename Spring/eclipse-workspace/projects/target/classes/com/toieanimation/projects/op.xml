@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<bean name="op" class = "com.toieanimation.projects.op"
+	p:teamname="mugiwara_no_ichimi" p:captainname="Monkey D. Luffy">
+	
+		<property name="players">
+			<list>
+				<value>Zoro</value>
+				<value>Nami</value>
+				<value>Ussop</value>
+				<value>Sanji</value>
+				<value>Chopper</value>
+				<value>Franky</value>
+				<value>Brook</value>				
+			</list>
+		</property>
+	
+	</bean>
+</beans>

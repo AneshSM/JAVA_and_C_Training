@@ -1,0 +1,17 @@
+package com.lastproject;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Example {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/lastdatabase","root","root");
+		Statement s=con.createStatement();
+//		s.executeUpdate("create database lastdatabase");
+		s.executeUpdate("create table student (sid integer,sname varchar(20) ,phone long,email varchar(20))");
+		s.executeUpdate("insert into student value(123,'abc',877654367,'abcd@gmail.com')");
+	}
+}

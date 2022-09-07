@@ -1,0 +1,11 @@
+package com.lastproject;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Example {
+	public static void main(String[] args) throws ClassNotFoundException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","root");
+	}
+}

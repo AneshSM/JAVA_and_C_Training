@@ -1,0 +1,210 @@
+
+
+*{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+#nav{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s{
+    padding-top: 1.5rem;
+    /* border: 1px solid; */
+    margin-left: 25rem;
+}
+#logo{
+    display: flex;
+    height: 4rem;
+    width: 2rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border: 1px solid;
+    background-image: url("blacklogo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+}
+
+
+
+
+
+
+#x{
+    margin-top: 1rem;
+    border: 1px solid;
+}
+#x p{
+    /* color: black; */
+    border: 1px solid white; 
+    background-color: rgb(185, 64, 19);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#fixed{
+
+    border: 1px solid ;
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 40%;
+    margin-left: 90%;
+    background:linear-gradient(aqua,green);
+    border-radius: 50%;
+}
+#fixed h1{
+    padding-top: 3px;
+    padding-left: 6px;
+    color: rgb(255, 0, 0);
+    text-shadow: 10px red;
+    background-color: transparent;
+}
+#relative{
+    border: 1px solid ;
+    background-color: white ;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    background: linear-gradient(red,green,blue);
+}
+
+#absolute{
+    border: 1px solid ;
+    background-color: white ;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    background: linear-gradient(rgb(0, 255, 98),rgb(128, 0, 53),rgb(255, 255, 0));
+}
+
+
+
+
+
+
+
+
+
+/* iframe */
+/* #a{
+    height: 30rem;
+    width: 30rem;
+    border: 40px solid;
+    border-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHC4peKlW4gEybb9tRhFfjyCw_IF1pc6-vvg&usqp=CAU") 19 round;
+} */
+
+
+
+
+
+
+/* 
+#b{
+    border: 10px;
+    border-top-style:solid;
+    border-bottom-style: dashed;    
+    border-color: black;
+    height: 50rem;
+    width: 50rem;
+    border-radius: 50%;
+    margin: 1.5rem 23rem;
+    border-image: url("");
+}
+#a{
+    border: 5px;
+    border-left-style:solid;
+    border-right-style:dotted ;
+    border-color: black;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    margin:12.5rem 12.5rem;
+}
+#bi{
+    width: 60rem;
+    height: 60rem;
+
+    border:0px;
+    border-style: solid;
+    border-color: black;
+    border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9O2LbGOWgUPhxLlznxIcFh7okvNpxWJ-ouA&usqp=CAU") 100 round;
+    border-width: 140px;
+}
+
+#d{
+    height: 10rem;
+    border: 5px;
+    border-radius: 10px;
+    border-bottom: 1px;
+    border-top: 10px;
+    border-color: aqua;
+    border-left: 20px;
+    border-width: 15px;
+    border-right: 30px;
+    border-style: dotted;
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border-top-color: brown;
+    border-bottom-color: blue;
+    border-spacing: 10px;
+    border-left-color: crimson;
+    border-right-color: coral;
+    border-bottom-width: 20px;
+    border-top-width: 20px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-top-style: ridge;
+    border-bottom-style: dotted;
+    border-right-style: solid;
+    border-left-style: dashed;
+    border-image: url();
+}
+ */
+
+
+/* Smily */
+
+#face{
+    transform: translate(30rem,0rem);
+    border: 1px solid white;
+    height: 40rem;
+    width: 40rem;
+    background-color: yellow;
+    border-radius: 50%;
+}
+#eye-box{
+    margin-top: 14rem;
+    height: 10rem;
+    width: 30rem;
+    margin-left: 5rem;
+    background-color: yellow;
+}
+.eye{
+    border: 1px solid white;
+    padding: 3rem;
+    margin-top: 0rem ;
+    margin-bottom: 0rem ;
+    margin-right:4.4rem;
+    margin-left:4.4rem;
+    border-radius: 50%;
+}
+
+
+#smile-box{
+    border: 1px solid black;
+    margin-top: 2rem;
+    height: 80px;
+    width: 220px;
+    background-color: tomato;
+    margin-left: 13rem;
+    border-radius: 0% 0% 1500px 1500px;
+}
+
+

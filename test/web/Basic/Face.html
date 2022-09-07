@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 30rem;
+            height: 20rem;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #reye,#leye{
+            width:10rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 10rem;
+            border-radius: 50%;
+            border: 1px solid white;
+            background-color: white;
+        }
+        #leye{
+            margin-left:2rem ;
+        }
+        .ball{
+            width: 3rem;
+            height: 3rem;
+            background-color: black;
+            border-radius: 50%;
+            animation-name: eye-ball;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes eye-ball {
+            0%{transform: translate(0px,-60px);}
+            0%{transform: translate(0px,-50px);}
+            20%{transform: translate(0px,-40px);}
+            0%{transform: translate(0px,-30px);}
+            30%{transform: translate(0px,-20px);}
+            0%{transform: translate(0px,-10px);}
+            50%{transform: translate(0px,10px);}
+            0%{transform: translate(0px,20px);}
+            70%{transform: translate(0px,30px);}
+            0%{transform: translate(0px,40px);}
+            100%{transform: translate(0px,50px);}
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="reye"><div class="ball"></div></div>
+        <div id="leye"><div class="ball"></div></div>
+    </div>
+</body>
+</html>

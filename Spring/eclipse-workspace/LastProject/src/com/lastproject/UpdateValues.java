@@ -1,0 +1,32 @@
+package com.lastproject;
+import java.util.Scanner;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class UpdateValues {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		Scanner sc= new Scanner(System.in);
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con3 = DriverManager.getConnection("jdbc:mysql://localhost:3306/lastdatabase","root","root");		
+		System.out.println("Enter a student id to update:");
+		int id=sc.nextInt();
+		PreparedStatement ps = con3.prepareStatement("update student set phone=?,email=? where sid="+id);
+		for(int i=1;i<=1;i++) {
+			System.out.println("Enter the phone number to update:");
+			long ph=sc.nextLong();
+			System.out.println("Enter the email to update:");
+			String email=sc.next();
+			
+			ps.setLong(1, ph);
+			ps.setString(2,email);
+			
+			ps.executeUpdate();
+		}
+		sc.close();
+
+		}
+}

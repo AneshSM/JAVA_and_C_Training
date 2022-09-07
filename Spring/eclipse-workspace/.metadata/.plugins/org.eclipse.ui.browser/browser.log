@@ -1,0 +1,16 @@
+
+May 13, 2022 11:37:47.195 NEW SESSION
+May 13, 2022 11:37:47.195 [840:2408:0513/113747.189:ERROR:device_event_log_impl.cc(214)] [11:37:47.189] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 13, 2022 11:38:45.178 [840:332:0513/113845.178:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+May 13, 2022 12:08:10.578 NEW SESSION
+May 13, 2022 12:08:10.578 [10624:12848:0513/120810.577:ERROR:device_event_log_impl.cc(214)] [12:08:10.576] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 13, 2022 12:09:39.553 [12016:6676:0513/120939.553:ERROR:device_event_log_impl.cc(214)] [12:09:39.553] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 13, 2022 12:20:14.885 [2088:12760:0513/122014.885:ERROR:device_event_log_impl.cc(214)] [12:20:14.885] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+May 14, 2022 15:00:24.21 NEW SESSION
+May 14, 2022 15:00:24.21 [6576:8940:0514/150024.017:ERROR:device_event_log_impl.cc(214)] [15:00:24.016] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 14, 2022 15:01:11.811 [11064:9632:0514/150111.811:ERROR:device_event_log_impl.cc(214)] [15:01:11.811] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+May 14, 2022 16:03:41.620 NEW SESSION
+May 14, 2022 16:03:41.620 [12472:13392:0514/160341.618:ERROR:device_event_log_impl.cc(214)] [16:03:41.618] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)

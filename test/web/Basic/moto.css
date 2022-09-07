@@ -1,0 +1,97 @@
+*{
+    background-color: black;
+    color: white;
+    border: white;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#a{
+    background-color: transparent;
+    position: fixed;
+    position: absolute;
+    /* border: 1px solid; */
+    height: 40rem;
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position:inherit;
+    /* position: fixed; */
+}
+#sym-box{
+    /* border: 1px solid; */
+    margin-top: -4rem;
+    height: 28rem;
+    width: 28rem;
+}
+#sym-box-1{
+    /* border: 1px solid; */
+    height: 28rem;
+    width:14rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+    margin-left: 2rem;
+}
+#angle-1{
+    /* border: 1px solid white;     */
+    width: 1px;
+    height: 1px;
+        
+    border-left: 110px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 450px solid ;
+    /* transform: rotate(35deg); */
+}
+#sym-box-2{
+    /* border: 1px solid; */
+    height: 28rem;
+    width:14rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content:left;
+    margin-left: 12rem;
+    margin-top: -28rem;
+}
+
+#angle-2{
+    background-color:transparent ;
+    /* border: 1px solid white;     */
+    width: 1px;
+    height: 1px;
+    
+    border-left: 110px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 450px solid ;
+    /* transform: rotate(35deg); */
+}
+#half-1{
+    position: absolute;
+    background:inherit;
+    background-color:black;
+    /* border: 1px solid; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    /* border: 1px solid; */
+    margin-top: 17.7rem;
+    margin-left: -4.5rem;
+    height: 20rem;
+    width: 10rem;
+}
+#half-2{
+    position: absolute;
+    background:inherit;
+    background-color:black;
+    /* border: 1px solid; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    /* border: 1px solid; */
+    margin-top: 17.7rem;
+    margin-left: -6rem;
+    height: 20rem;
+    width: 10rem;
+}

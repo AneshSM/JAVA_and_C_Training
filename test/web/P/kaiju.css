@@ -1,0 +1,39 @@
+*{
+    /*margin: 5px;*/
+    background-color: black;
+    color: silver;
+    font-size: large;
+}
+nav{
+    font-size: large;
+    width: 100%;
+    color: silver; 
+}
+header,
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  flex-shrink: 0;
+  background-color: aquamarine;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}       
+main{
+    background-color: white;
+    flex:1 0 auto;
+    display: flex;
+}
+h1{
+    background-color: transparent;
+}
+section{
+    background-color: aqua;
+    text-align: center
+}
+.i{
+    width: 100%;
+}

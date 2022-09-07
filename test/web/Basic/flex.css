@@ -1,0 +1,49 @@
+/*{
+    background-color: black;
+    color:white;
+
+  text-align: center;
+}
+
+header,
+footer{
+  flex: 1 100%;  
+  flex-shrink: 0;
+  background-color: aquamarine;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}       
+main{
+    background-color: white;
+    flex:1 0 auto;
+    display: flex;
+}
+section{
+    background-color: aqua;
+    flex: 2;
+    text-align: center
+}
+aside{
+    background-color: aliceblue;
+    flex: 1;        
+}
+nav{
+    background-color: tomato;
+}
+span{
+    color: white;
+    background: transparent;
+}
+h1{
+    background-color: transparent;
+} */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url()norepeat;
+}                                                                                                                                                           
+                                                                                                                                                        
+                                                          

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            background-color: black;
+            color: white;
+        }
+        .a{
+            background-color: white;
+            color: black;
+            border-radius: 20rem;
+        }
+        input,select{
+            border-radius: 20rem;
+            border-color: white;
+        }
+        textarea{
+            border-color: white;
+        }
+        ::placeholder{
+            color: rgb(194, 183, 183);
+        }
+        form{
+            padding:0px 40px;
+            border: 1px solid white;
+            margin: auto;
+            margin-top: 4rem;
+        }
+        .t{
+            margin: auto;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <form action="https://youtu.be/iik25wqIuFo">
+    <table class="t">
+        <tr>
+            <td><label for=""><i class="fa-solid fa-image-portrait"></i> Firstname:</label></td>
+            <td><input type="text" min="4" max="30"  placeholder="Enter your first name">max 30 character a-z and A-Z</td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-image-portrait"></i> Lastname:</label></td>
+            <td><input type="text"  placeholder="Enter your last name" min="4" max="30">max 30 character a-z and A-Z</td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-cake-candles"></i> DOB</label></td>
+            <td>
+            <select name="" id="">
+                <option value="">day</option>
+                <option value="">Monday</option>
+                <option value="">Tuesday</option>
+                <option value="">Wednesday</option>
+                <option value="">Thursday</option>
+                <option value="">Friday</option>
+                <option value="">Saturday</option>
+                <option value="">Sunday</option>
+            </select>
+            <select name="" id="">
+                <option value="">month</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+            </select>
+            <select name="" id="">
+                <option value="">year</option>
+                <option value="">1994</option>
+                <option value="">1995</option>
+                <option value="">1996</option>
+                <option value="">1997</option>
+                <option value="">1998</option>
+                <option value="">1999</option>
+                <option value="">2000</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+                <option value="">2004</option>
+                <option value="">2005</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-at"></i> Email:</label></td>
+            <td><input type="email"  placeholder="Enter your email id"></td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-mobile"></i> Mobile number:</label></td>
+            <td><input type="number"  placeholder="Enter your number"></td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-person-half-dress"></i> Gender:</label></td>
+            <td>Male<input type="radio" name="" id="">Female<input type="radio" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-location-dot"></i> Address:</label></td>
+            <td><textarea name="" id="" cols="30" rows="8"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-city"></i> City:</label></td>
+            <td><input type="text" min="4" max="30"  placeholder="Enter your city">max 30 character a-z and A-Z</td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-location-pin"></i> Pincode:</label></td>
+            <td><input type="number" min="100000" max="999999"  placeholder="Pincode">(6 digit number)</td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-map-location-dot"></i> State:</label></td>
+            <td><input type="text" min="4" max="30"  placeholder="Enter your state">max 30 character a-z and A-Z</td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-earth-asia"></i> Country:</label></td>
+            <td><input type="text" placeholder="Enter your Country"></td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-gamepad"></i> Hobbies:</label></td>
+            <td>reading book <input type="checkbox" name="" id="">Skating <input type="checkbox" name="" id="">swimming <input type="checkbox" name="" id=""><br> Riding <input type="checkbox" name="" id="">Other: <input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-graduation-cap"></i> Qualification:</label></td>
+            <td>
+                <table>
+                    <tr>
+                        <th>S.no</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of passed</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class 10</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>PUC</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Degree</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>PG</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Masters</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td><label for=""><i class="fa-solid fa-book-open-reader"></i> Courses <br> Applied for:</label></td>
+            <td>B.SC <input type="radio" name="" id="">B.E <input type="radio" name="" id="">B.Com <input type="radio" name="" id="">BCA <input type="radio" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><input  class="a" type="submit"></td>
+            <td><button class="a">Register</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

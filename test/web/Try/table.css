@@ -1,0 +1,14 @@
+table,td,tr,th{
+    border:1px solid black;
+    }
+body{
+    background-color: rgb(150, 169, 169);
+    
+}
+input{
+    background-color: rgb(136, 198, 198);
+    color: brown;
+}
+div{
+    position: center;
+}

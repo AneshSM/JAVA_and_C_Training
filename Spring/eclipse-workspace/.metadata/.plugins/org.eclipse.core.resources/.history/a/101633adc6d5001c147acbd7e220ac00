@@ -1,0 +1,47 @@
+package com.mainproject;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+public class Company {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Scanner sc=new Scanner(System.in);
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		
+		try {
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306","root","root");
+			Statement s=con.createStatement();
+			s.executeUpdate("drop database Company");
+		} 
+		catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e);
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Company","root","root");
+			Statement s=con.createStatement();
+			try {
+				s.executeUpdate("create table Employee(eid int,ename varchar(20),age int,salary double)");
+			} 
+			catch (Exception e2) {
+				System.out.println(e2);
+				PreparedStatement p1 = con.prepareStatement("insert into Employee values(?,?,?,?)");
+				
+				System.out.println("Enter the number of Employees:");
+				int n=sc.nextInt();
+				// TODO: handle exception
+				for(int i=0;i<n;i++) {
+					System.out.println("Enter the Employee id:");
+					int eid=sc.nextInt();
+					System.out.println("Enter the Employee name:");
+					String name=sc.next();
+				}
+				
+			}			
+		}
+
+	}
+}

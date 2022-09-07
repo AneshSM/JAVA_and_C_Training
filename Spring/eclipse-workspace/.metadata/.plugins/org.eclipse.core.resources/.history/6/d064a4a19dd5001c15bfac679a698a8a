@@ -1,0 +1,30 @@
+package com.lastproject;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Example {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/lastdatabase","root","root");
+		Statement s=con.createStatement();
+//		s.executeUpdate("create database lastdatabase");
+//		s.executeUpdate("create table student (sid integer,sname varchar(20) ,phone long,email varchar(20))");
+
+
+//		s.executeUpdate("insert into student values(234,'bcd',877654367,'abcd@gmail.com')");
+//		s.executeUpdate("insert into student values(345,'cde',877654367,'abcd@gmail.com')");
+//		s.executeUpdate("insert into student values(456,'def',877654367,'abcd@gmail.com')");
+//		s.executeUpdate("insert into student values(567,'efg',877654367,'abcd@gmail.com')");
+//		s.executeUpdate("insert into student values(678,'fgh',877654367,'abcd@gmail.com')");
+//		s.executeUpdate("insert into student values(789,'ghi',877654367,'abcd@gmail.com')");
+		
+		ResultSet rs=s.executeQuery("select* from student");
+		while(rs.next()) {
+			System.out.println(rs.getInt(1)+""+rs.getInt(1)+""+rs.getInt(1)+""+rs.getInt(1));
+		}
+	}
+}
