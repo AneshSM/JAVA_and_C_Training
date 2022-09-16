@@ -1,7 +1,2 @@
 INDEX VERSION 1.131+A:\Documents\GitHub\Training\Spring\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
-841933098.index
 1865797976.index
-490295001.index
-311824956.index
-874031340.index
-420985311.index

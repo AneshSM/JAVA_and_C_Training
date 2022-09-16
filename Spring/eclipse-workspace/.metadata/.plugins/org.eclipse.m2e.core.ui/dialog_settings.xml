@@ -2,6 +2,14 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="A:\Documents\GitHub\Training\Spring\eclipse-workspace\one-to-one-bi"/>
+			<item value="A:\Documents\GitHub\Training\Spring\eclipse-workspace\one-to-one-bi\src\main\java\dtao\Pan.java"/>
+			<item value="A:\Documents\GitHub\Training\Spring\eclipse-workspace\manytoone\pom.xml"/>
+			<item value="A:\Documents\GitHub\Training\Spring\eclipse-workspace\onetomany"/>
+			<item value="A:\Documents\GitHub\Training\Spring\eclipse-workspace\oneTOone"/>
+			<item value="A:\Documents\GitHub\Training\Spring\eclipse-workspace\hibernate-customer-crud"/>
+			<item value="A:\Documents\GitHub\Training\Spring\eclipse-workspace\2PhCompany"/>
+			<item value="A:\Documents\GitHub\Training\Spring\eclipse-workspace\2PhProject1"/>
 			<item value="A:\Documents\Training\Spring\eclipse-workspace\Servers"/>
 			<item value="A:\Documents\Training\Spring\eclipse-workspace"/>
 			<item value="A:\Documents\Training\Spring\eclipse-workspace\projects\src\main\java\com\toieanimation\projects\op.java"/>
@@ -28,15 +36,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="zebraa.note"/>
-			<item value="zebraa.momo"/>
+			<item value="org.alvas.ph.phserver1"/>
 		</list>
 		<list key="groupId">
-			<item value="zebraa"/>
+			<item value="org.alvas.2ph"/>
 		</list>
 		<list key="artifactId">
-			<item value="note"/>
-			<item value="momo"/>
+			<item value="2phserver1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
